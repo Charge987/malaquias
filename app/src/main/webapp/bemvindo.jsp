@@ -7,8 +7,8 @@
 <body>
     <h1> 
         <%
-        String nome= request.getParameter("Nome");
-        out.print("Bem Vindo + Nome + !!!");
+        String Nome= request.getParameter("Nome");
+        out.print("Bem Vindo" + Nome +  "!!!");
         %>
     </h1>
 </body>
